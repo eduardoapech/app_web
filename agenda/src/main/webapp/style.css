@@ -1,13 +1,48 @@
 @charset "UTF-8";
 
-/* Estilo geral */
-body {
-	font-family: "Open Sans", sans-serif;
-	font-size: 1em;
-	font-weight: 400;
-	background-color: #d0e0f0;
+* {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	/* Fundo claro */
+	color: #343a40;
+	/* Texto escuro */
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	color: #007bff;
+	/* Azul moderno */
+}
+
+p, a, li {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+
+button {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	cursor: pointer;
+	background-color: #007bff;
+	/* Azul moderno */
+	color: white;
+	border-radius: 8px;
+	width: 200px;
+	border: none;
+	height: 45px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+	background-color: white;
+	color: #007bff;
+	/* Azul moderno */
 }
 
 /* Centralização de conteúdo */
@@ -24,7 +59,6 @@ img {
 
 /* Estilo para o título principal */
 h1 {
-	color: #66bbff;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -40,7 +74,8 @@ h1 {
 	border: none;
 	cursor: pointer;
 	display: inline-block;
-	margin: 5px; /* Espaçamento entre botões */
+	margin: 5px;
+	/* Espaçamento entre botões */
 }
 
 .Botao1 {
@@ -93,5 +128,6 @@ h1 {
 }
 
 #tabela tr:hover {
-	background-color: #f1f1f1; /* Destaque na linha ao passar o mouse */
+	background-color: #f1f1f1;
+	/* Destaque na linha ao passar o mouse */
 }
