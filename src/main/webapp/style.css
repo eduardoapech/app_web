@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* Estilo geral */
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	background-color: #d0e0f0;
+	margin: 0;
+	padding: 0;
+}
+
+/* Centralização de conteúdo */
+.centralizar {
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Estilo para imagens */
+img {
+	max-width: 150px;
+	margin-bottom: 20px;
+}
+
+/* Estilo para o título principal */
+h1 {
+	color: #66bbff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Estilo para os botões */
+.Botao1, .Botao2 {
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	margin: 5px; /* Espaçamento entre botões */
+}
+
+.Botao1 {
+	background-color: #66bbff;
+}
+
+.Botao2 {
+	background-color: #d51213;
+}
+
+/* Estilo para caixas de texto */
+.Caixa1, .Caixa2 {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+#caixa3 {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+}
+
+/* Estilo para tabelas */
+#tabela {
+	margin-top: 30px;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 10px;
+	background-color: #66bbff;
+	color: #fff;
+	text-align: left;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+/* Melhorias adicionais */
+#tabela tr:nth-child(even) {
+	background-color: #f9f9f9;
+	/* Fundo alternado para melhorar legibilidade */
+}
+
+#tabela tr:hover {
+	background-color: #f1f1f1; /* Destaque na linha ao passar o mouse */
+}
